@@ -1,11 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*
- * main - Entry point
- * Generate random numbers(pos/neg/zero)
+/**
+ * main - This function generatesa random integer and prints a message
+ * indicating the interger is positive, or negative or zero.
  *
- * Return: Always(0)
+ * Return: Always 0 (Success)
  *
  */
 
