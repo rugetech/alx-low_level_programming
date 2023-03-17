@@ -18,7 +18,7 @@ n = rand() - RAND_MAX / 2;
 if (n > 0)
 	printf("The number is positive. \n");
 
-elif(n < 0)
+else if (n < 0)
 	printf("The number is negative. \n");
 
 else
