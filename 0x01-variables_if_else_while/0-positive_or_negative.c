@@ -17,17 +17,17 @@ n = rand() - RAND_MAX / 2;
 /*Generates random numbers */
 if (n > 0)
 {
-	printf("The number is positive. \n");
+	printf(n, " is positive.%d\n");
 }
 
 else if (n < 0)
 {
-	printf("The number is negative. \n");
+	printf(n, " is negative.%d\n");
 }
 
 else
 {
-	printf("The number is zero. \n");
+	printf(n, " is zero.%d\n");
 }
 
 return (0);
