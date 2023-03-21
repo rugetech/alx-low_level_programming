@@ -8,12 +8,8 @@
 
 int _abs(int c)
 {
-if (c > 0)
+if (c)
 {
-return (-c);
-}
-else
-{
-return (c);
+return (abs(c));
 }
 }
