@@ -18,7 +18,7 @@ result = i * j;
 if (result <= 9)
 {
 _putchar(result + '0');
-_putchar( ' ');
+_putchar(' ');
 }
 else
 {
