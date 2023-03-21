@@ -24,6 +24,10 @@ else
 _putchar(result / 10 + '0');
 _putchar((result % 10) + '0');
 }
+if (j <= 4)
+{
+_putchar(' ');
+}
 if (j != 9)
 {
 _putchar(',');
