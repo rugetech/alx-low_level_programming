@@ -1,9 +1,9 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * jack_baver - func
+ * jack_bauer - func
 */
-void jack_baver(void)
+void jack_bauer(void)
 {
 int a, b, c, d;
 for (a = 0; a <= 2; a++)
