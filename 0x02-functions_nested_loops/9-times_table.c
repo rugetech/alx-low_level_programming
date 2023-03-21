@@ -26,7 +26,7 @@ _putchar((result % 10) + '0');
 }
 if (j <= 4)
 {
-_putchar(' ');
+_putchar(result + ' ');
 }
 if (j != 9)
 {
