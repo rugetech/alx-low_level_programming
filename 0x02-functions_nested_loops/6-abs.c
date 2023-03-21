@@ -6,12 +6,15 @@
  * Return: Abs value of c or 0
 */
 
-int _abs(int c)
+int _abs(int n)
 {
-if (c)
+int n;
+if (n < 0)
 {
-int abs_val = _abs(c);
-return (abs_val);
+return (-n);
+} 
+else 
+{
+return (n);
 }
-return (c);
 }
