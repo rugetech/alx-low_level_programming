@@ -5,13 +5,11 @@
  * Return: void
 */
 
-void print_alphabet(void)
-{
-char c;
-
-for (c = "a"; c <= "z"; c++)
-{
-_putchar(c);
+void print_alphabet(void) {
+char letter = 'a';
+while (letter <= 'z') {
+_putchar(letter);
+letter++;
 }
 _putchar('\n');
 }
