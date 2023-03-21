@@ -18,7 +18,6 @@ result = i * j;
 if (result <= 9)
 {
 _putchar(result + '0');
-_putchar(' ');
 }
 else
 {
@@ -27,8 +26,7 @@ _putchar((result % 10) + '0');
 }
 if (j != 9)
 {
-_putchar(',');
-_putchar(' ');
+_putchar(', ');
 }
 }
 _putchar('\n');
